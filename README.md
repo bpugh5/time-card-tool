@@ -1,12 +1,11 @@
-# React + Vite
+# time-card-tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is meant to serve as a personal tool to quickly calculate clock out time based on:
 
-Currently, two official plugins are available:
+* When the shift started
+* How much time has been worked since then (in decimal format)
+* The desired number of hours to work in the shift
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Each of these details can be customized, or left to their default values.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Additionally, you may enter the number of hours (in decimal format) worked each day of the week into a comma delimited text box, as well as how many hours you need to get to, in order to determine how many hours (in decimal format) you still have left to work to reach that goal.
