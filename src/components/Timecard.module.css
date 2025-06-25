@@ -22,3 +22,33 @@
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+.shiftCalculatorCard {
+    --card-background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 45%;
+}
+
+.clockOutCalculatorCard {
+    --card-background: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 45%;
+}
+
+.featureDiv {
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+}
